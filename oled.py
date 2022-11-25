@@ -48,6 +48,10 @@ class Oled:
     self.invert_area(0, l1, 128, l2 - l1)
 
   def invert_area(self, x, y, sizex, sizey):
+    """
+    Generic function to invert pixels.
+    If your device has a more efficient way to do this, make sure to override
+    """
     if sizex > 0x80:
       sizex = 0x80
     if sizey > 0x40:

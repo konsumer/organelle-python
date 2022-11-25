@@ -8,6 +8,8 @@ It's not done at all, just prototyping some ideas.
 
 ## todo
 
+- finish OLED functions
+- port the OSC server
 - SDL2 will probly perform better & has great device support
 - add modules for different hardware configurations
 
